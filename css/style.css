@@ -1,0 +1,89 @@
+body {
+	height: 100%;
+	margin: 5px;
+	font-size: 17px;
+	font-family: Gotham;
+	color: White;
+	background: #333333;
+}
+
+.company	{
+	font-family: Kollektif;
+	text-align: Center;
+}
+a {
+	text-decoration: none;
+}
+
+#Second-Paragraph	{
+	Text-Align: Right;
+}
+
+#Second-Title	{
+	Text-Align: Right;
+}
+
+.img1, .img2, .img3, .img4 {
+	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.img1 {
+	min-height: 500px;
+	background-image: url(../images/building1.jpg);
+}
+
+.img2 {
+	min-height: 500px;
+	background-image: url(../images/house2.jpg);
+}
+
+.img3 {
+	min-height: 500px;
+	background-image: url(../images/broker1.jpg);
+}
+
+.img4 {
+	min-height: 500px;
+	background-image: url(../images/room1.jpg);
+}
+
+#main-menu {
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.button {
+	background: #339999;
+	color: #333333;
+	padding: 10px 25px;
+}
+.button:hover {
+	background: #339999;
+	color: white;
+}
+
+h1 {
+	color: #339999;
+}
+
+h1:hover {
+	color: white;
+}
+
+section {
+	padding: 40px;
+}
+
+.footer {
+	text-align: center;
+}

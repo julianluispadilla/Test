@@ -1,0 +1,130 @@
+body {
+	background: #333333;
+	font-family: Gotham;
+	font-size: 17px;
+	margin: 5px;
+	color: white;
+}
+a {
+	text-decoration: none;
+}
+
+h1	{
+	text-align: center;
+}
+
+p	{
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 25px;
+}
+#main-menu {
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.button {
+	background: #339999;
+	color: black;
+	padding: 10px 25px;
+}
+.button:hover {
+	background: #339999;
+	color: white;
+}
+
+.company	{
+	font-family: Kollektif;
+	text-align: Center;
+}
+
+.first {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: 2fr 1fr;
+}
+
+.first-left {
+	background-image: url(../images/pic1.1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 230px;
+}
+.first-left:hover {
+	background-image: url(../images/pic1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.first-right {
+	
+	background: #339999;
+	margin-bottom: 0px;
+}
+
+.second {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: 1fr 2fr;
+}
+
+.second-left {
+	background: #333333;
+	margin-bottom: 0px;
+}
+
+.second-right {
+	background-image: url(../images/pic2.2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 230px;
+}
+
+.second-right:hover {
+	background-image: url(../images/pic2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.third {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: 2fr 1fr;
+}
+
+.third-left {
+	
+	background-image: url(../images/pic3.3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 230px;
+}
+
+.third-left:hover {
+	background-image: url(../images/pic3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.third-right {
+	background: #339999;
+	margin-bottom: 0px;
+}
+
+.footer	{
+	text-align: center;
+}

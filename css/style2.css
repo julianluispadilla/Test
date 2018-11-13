@@ -1,0 +1,100 @@
+body {
+	height: 100%;
+	margin: 5px;
+	font-size: 17px;
+	font-family: Gotham;
+	color: white;
+	background: #333333;
+}
+
+h1	{
+	text-align: center;
+}
+.company	{
+	font-family: Kollektif;
+	text-align: Center;
+}
+
+#main-menu {
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.button {
+	background: #339999;
+	color: #333333;
+	padding: 10px 25px;
+}
+.button:hover {
+	background: #339999;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.showcase {
+	margin: 10px;
+	padding: 250px;
+	border: 5px solid;
+	border-color: white;
+	background-position: center;
+	background-attachment: fill;
+	background: url(../images/apartment1.jpg);
+}
+
+.showcase:hover {
+	margin: 10px;
+	padding: 250px;
+	border: 5px solid;
+	border-color: white;
+	background-position: center;
+	background-attachment: fill;
+	background: url(../images/apartment2.jpg);
+}
+
+
+#SERVICES {
+	color: black;
+	text-align: center;
+}
+
+#SERVICES:hover {
+	color: white;
+	text-align: center;
+}
+
+.img1, .img2 {
+	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.img1 {
+	min-height: 500px;
+	background-image: url(../images/build1.jpg);
+	
+}
+
+/*.img1:hover {
+	min-height: 500px;
+	background-image: url(../images/build2.jpg);
+	
+}*/
+
+.img2 {
+	min-height: 500px;
+	background-image: url(../images/design1.jpg);
+}
+
+.footer {
+	text-align: center;
+}

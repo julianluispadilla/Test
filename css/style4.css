@@ -1,0 +1,86 @@
+body {
+	background: #333333;
+	font-family: Gotham			;
+	font-size: 17px;
+	margin: 5px;
+	color: white;
+}
+a {
+	text-decoration: none;
+}
+
+.company	{
+	font-family: Kollektif;
+	text-align: Center;
+}
+
+#main-menu {
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.button {
+	background: #339999;
+	color: black;
+	padding: 10px 25px;
+}
+.button:hover {
+	background: #339999;
+	color: white;
+}
+.qwerty {
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+	padding: 250px;
+	background-image: url(../images/1.1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 20px gray;
+	margin: 20px;
+	color: black;
+}
+.qwerty:hover {
+	background-image: url(../images/1.jpg);
+	color: white;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+}
+
+section {
+	text-align: center;
+	padding: 30px;
+}
+
+section p {
+	text-align: center;
+	padding: 10px;
+}
+
+.Description	{
+	Text-Align: Justify;
+}
+.sec1 {
+	text-align: left;
+	padding: 10px;
+}
+
+
+.img1 {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 500px;
+	background-image: url(../images/african.jpg);
+	
+}
